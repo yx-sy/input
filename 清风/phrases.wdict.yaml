@@ -1,0 +1,79 @@
+# WindInput 用户数据文件
+wind_dict:
+    version: 1
+    generator: WindInput
+    exported_at: "2026-06-26T17:52:32+07:00"
+    sections:
+        phrases:
+            columns:
+                - code
+                - text
+                - weight
+                - position
+                - enabled
+
+--- !phrases
+cobd	$CC("打开搜索", open("https://baidu.com"), open("https://google.com"))	1000	0	1
+coed	$CC("打开Microsoft Edge", proc.run("C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe"))	1000	0	1
+coex	$CC("打开excel", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\EXCEL.EXE"))	1000	0	1
+cogh	$CC("打开github", open("https://github.com/yx-sy?direction=desc&sort=updated&tab=stars"))	1000	0	1
+cohd	$CC("汉典 · {last()}", open("https://www.zdic.net/hans/{url(last())}"))	1000	0	1
+coqd	$CC("打开Q-Dir", proc.run("D:\\\\Program Files\\\\Q-Dir\\\\Q-Dir.exe"))	1000	0	1
+coqq	$CC("打开QQ", proc.run("C:\\\\Program Files\\\\Tencent\\\\QQNT\\\\QQ.exe"))	1000	0	1
+cowd	$CC("打开word", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE"))	1000	0	1
+cowx	$CC("打开企业微信", proc.run("C:\\\\Program Files (x86)\\\\WXWork\\\\WXWork.exe"))	1000	0	1
+cowx	$CC("打开微信", proc.run("C:\\\\Program Files\\\\Tencent\\\\Weixin\\\\Weixin.exe"))	1001	0	1
+coxz	$CC("打开Geek Uninstalle", open("D:\\\\Program Files\\\\Geek Uninstaller.exe"))	1000	0	1
+date	$Y-$MM-$DD	800	0	1
+date	$Y.$MM.$DD	800	0	1
+date	$Y/$MM/$DD	800	0	1
+date	$Y年$M月$D日	1000	0	1
+date	${YC}年${MC}月${DC}日	800	0	1
+datm	$Y-$MM-$DD $HH:$mm:$ss	800	0	1
+datm	$Y年$M月$D日 $HH:$mm:$ss	1000	0	1
+datm	${YC}年${MC}月${DC}日 $HH:$mm:$ss	800	0	1
+time	$HH:$mm	800	0	1
+time	$HH:$mm:$ss	1000	0	1
+time	$HH时$mm分$ss秒	800	0	1
+tmts	$ts	800	0	1
+tmts	$tsms	800	0	1
+uuid	$uuid	1000	0	1
+week	$Y年$M月$D日 周$WC	800	0	1
+week	$Y年$M月$D日 星期$WC	800	0	1
+week	周$WC	800	0	1
+week	星期$WC	1000	0	1
+zzbd	$AA("标点", "、。·ˉˇ¨〃々—～‖…‘’“”〔〕〈〉《》「」『』〖〗【】±×÷∶∧∨∑∏∪∩∈∷√⊥∥∠⌒⊙∫∮≡≌≈∽∝≠≮≯≤≥∞∵∴♂♀°′″℃＄¤￠￡‰§№☆★○●◎◇◆□■△▲※→←↑↓〓")	1230	0	1
+zzde	$AA("大写俄文", "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁ")	1110	0	1
+zzdl	$AA("大写罗马", "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ")	1090	0	1
+zzds	$AA("点号数字", "⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛")	1170	0	1
+zzdw	$AA("单位", "㎎㎏㎜㎝㎞㎡㏄㏎㏑㏒㏕")	1190	0	1
+zzdx	$AA("大写希腊", "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ")	1070	0	1
+zzhb	$AA("货币符号", "＄￠￡￥¤")	1130	0	1
+zzjp	$AA("片假名", "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶーヽヾ")	1040	0	1
+zzjt	$AA("箭头符号", "→↑←↓↖↗↘↙")	1120	0	1
+zzks	$AA("括号数字", "⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇")	1160	0	1
+zzpj	$AA("平假名", "ぁあぃいぅうぇえぉおかがきぎぱくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをん゛゜ゝゞ")	1050	0	1
+zzpp	$AA("偏旁", "亻彳讠饣艹丶乛亠冖宀冫丷扌氵灬丨亅丿乚勹匚冂凵爫忄丬纟疒阝刂卩犭辶廴钅礻衤罒覀夂癶耂牜虍歺糹釒飠")	1200	0	1
+zzpy	$AA("拼音", "āáǎàōóǒòêēéěèīíǐìǖǘǚǜüūúǔù")	1180	0	1
+zzrq	$Y-$MM-$DD	800	0	1
+zzrq	$Y.$MM.$DD	800	0	1
+zzrq	$Y/$MM/$DD	800	0	1
+zzrq	$Y年$M月$D日	1000	0	1
+zzrq	${YC}年${MC}月${DC}日	800	0	1
+zzsj	$HH:$mm	800	0	1
+zzsj	$HH:$mm:$ss	1000	0	1
+zzsj	$HH时$mm分$ss秒	800	0	1
+zzsx	$AA("数学符号", "＋－＜＝＞±×÷∈∏∑∕√∝∞∟∠∣∥∧∨∩∪∫∮∴∵∶∷∽≈≌≒≠≡≤≥≦≧≮≯⊕⊙⊥⊿")	1030	0	1
+zzsz	$AA("数字", "❶❷❸❹❺❻❼❽❾❿")	1220	0	1
+zzts	$AA("特殊符号", "℃°‰♂♀§№☆★○●◎◇◆□■△▲※〓＃＆＠＼＾＿￣")	1020	0	1
+zzxe	$AA("小写俄文", "абвгдежзийклмнопрстуфхцчшщъыьэюяё")	1100	0	1
+zzxl	$AA("小写罗马", "ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹ")	1080	0	1
+zzxq	$Y年$M月$D日 周$WC	800	0	1
+zzxq	$Y年$M月$D日 星期$WC	800	0	1
+zzxq	周$WC	800	0	1
+zzxq	星期$WC	1000	0	1
+zzxx	$AA("小写希腊", "αβγδεζηθικλμνξοπρστυφχψω")	1060	0	1
+zzys	$AA("圆圈数字", "①②③④⑤⑥⑦⑧⑨⑩")	1150	0	1
+zzzm	$AA("字母", "ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ")	1210	0	1
+zzzs	$AA("中文数字", "㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩")	1140	0	1
+zzzy	$AA("注音符号", "ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ")	1010	0	1
