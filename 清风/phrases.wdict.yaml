@@ -69,8 +69,8 @@ zqd	$CC("打开Q-Dir", proc.run("D:\\\\Program Files\\\\Q-Dir.exe"))	1000	0	1
 zqq	$CC("打开QQ", proc.run("C:\\\\Program Files\\\\Tencent\\\\QQNT\\\\QQ.exe"))	1000	0	1
 zvs	$CC("打开Visio", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\VISIO.EXE"))	1000	0	1
 zwd	$CC("打开Word", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE"))	1000	0	1
+zwx	$CC("打开微信", proc.run("C:\\\\Program Files\\\\Tencent\\\\Weixin\\\\Weixin.exe"))	1001	0	1
 zwx	$CC("打开企业微信", proc.run("C:\\\\Program Files (x86)\\\\WXWork\\\\WXWork.exe"))	1000	0	1
-zwx	$CC("打开微信", proc.run("C:\\\\Program Files\\\\Tencent\\\\Weixin\\\\Weixin.exe"))	1000	0	1
 zzbd	$AA("标点", "、。·ˉˇ¨〃々—～‖…‘’“”〔〕〈〉《》「」『』〖〗【】±×÷∶∧∨∑∏∪∩∈∷√⊥∥∠⌒⊙∫∮≡≌≈∽∝≠≮≯≤≥∞∵∴♂♀°′″℃＄¤￠￡‰§№☆★○●◎◇◆□■△▲※→←↑↓〓")	1230	0	1
 zzde	$AA("大写俄文", "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁ")	1110	0	1
 zzdl	$AA("大写罗马", "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ")	1090	0	1
