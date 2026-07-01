@@ -2,7 +2,7 @@
 wind_dict:
     version: 1
     generator: WindInput
-    exported_at: "2026-06-26T20:55:17+07:00"
+    exported_at: "2026-07-01T20:56:13+07:00"
     sections:
         phrases:
             columns:
@@ -34,6 +34,7 @@ cost	$CC("切简繁", ime.toggle("s2t"))	2000	0	1
 cotb	$CC("切工具栏", ime.toggle("toolbar"))	2000	0	1
 cots	$CC("切主题", ime.theme_cycle())	2000	0	1
 cozd	$CC("汉典:{last(1)}", open("https://www.zdic.net/hans/{url(last(1))}"))	2000	0	1
+
 date	$Y-$MM-$DD	800	0	1
 date	$Y.$MM.$DD	800	0	1
 date	$Y/$MM/$DD	800	0	1
@@ -52,25 +53,45 @@ week	$Y年$M月$D日 周$WC	800	0	1
 week	$Y年$M月$D日 星期$WC	800	0	1
 week	周$WC	800	0	1
 week	星期$WC	1000	0	1
-zca	$CC("打开CAD", proc.run("D:\\\\Program Files\\\\Autodesk\\\\AutoCAD 2026\\\\acad.exe"))	1000	0	1
-zee	$CC("打开EmEditor", proc.run("D:\\\\Program Files\\\\EmEditor\\\\EmEditor.exe"))	1000	0	1
-zex	$CC("打开Excel", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\EXCEL.EXE"))	1000	0	1
-zgh	$CC("打开Github", open("https://github.com/yx-sy?direction=desc&sort=updated&tab=stars"))	1000	0	1
-zgk	$CC("打开Geek Uninstaller", proc.run("D:\\\\Program Files\\\\Geek Uninstaller.exe"))	1000	0	1
-zgp	$CC("打开Gopeed", proc.run("D:\\\\Program Files\\\\Gopeed\\\\gopeed.exe"))	1000	0	1
-zlx	$CC("打开LX Music", proc.run("D:\\\\Program Files\\\\LxMusic\\\\lx-music-desktop.exe"))	1000	0	1
-zme	$CC("打开Microsoft Edge", proc.run("C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe"))	1000	0	1
-zmn	$CC("打开MotrixNext", proc.run("D:\\\\Program Files\\\\MotrixNext\\\\motrix-next.exe"))	1000	0	1
-znp	$CC("打开Notepad4", proc.run("D:\\\\Program Files\\\\Notepad4\\\\Notepad4.exe"))	1000	0	1
-zpj	$CC("打开Project", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINPROJ.EXE"))	1000	0	1
-zpo	$CC("打开Pot", proc.run("D:\\\\Program Files\\\\pot\\\\pot.exe"))	1000	0	1
-zpp	$CC("打开PowerPoint", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\POWERPNT.EXE"))	1000	0	1
-zqd	$CC("打开Q-Dir", proc.run("D:\\\\Program Files\\\\Q-Dir.exe"))	1000	0	1
-zqq	$CC("打开QQ", proc.run("C:\\\\Program Files\\\\Tencent\\\\QQNT\\\\QQ.exe"))	1000	0	1
-zvs	$CC("打开Visio", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\VISIO.EXE"))	1000	0	1
-zwd	$CC("打开Word", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE"))	1000	0	1
-zwx	$CC("打开微信", proc.run("C:\\\\Program Files\\\\Tencent\\\\Weixin\\\\Weixin.exe"))	1001	0	1
-zwx	$CC("打开企业微信", proc.run("C:\\\\Program Files (x86)\\\\WXWork\\\\WXWork.exe"))	1000	0	1
+
+zca	$CC1("打开CAD", proc.run("D:\\\\Program Files\\\\Autodesk\\\\AutoCAD 2026\\\\acad.exe"))	2000	0	1
+zee	$CC1("打开EmEditor", proc.run("D:\\\\Program Files\\\\EmEditor\\\\EmEditor.exe"))	1000	0	1
+zex	$CC1("打开Excel", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\EXCEL.EXE"))	2000	0	1
+zgh	$CC1("打开Github", open("https://github.com/yx-sy?direction=desc&sort=updated&tab=stars"))	2000	0	1
+zgk	$CC1("打开Geek Uninstaller", proc.run("D:\\\\Program Files\\\\Geek Uninstaller.exe"))	1500	0	1
+zgp	$CC1("打开Gopeed", proc.run("D:\\\\Program Files\\\\Gopeed\\\\gopeed.exe"))	1000	0	1
+zlx	$CC1("打开LX Music", proc.run("D:\\\\Program Files\\\\LxMusic\\\\lx-music-desktop.exe"))	1000	0	1
+zme	$CC1("打开Microsoft Edge", proc.run("C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe"))	2000	0	1
+zml	$CC1("打开目录", open("D:\\\\Program Files\\\\WindInput"))	1000	0	1
+zmn	$CC1("打开MotrixNext", proc.run("D:\\\\Program Files\\\\MotrixNext\\\\motrix-next.exe"))	1500	0	1
+znp	$CC1("打开Notepad4", proc.run("D:\\\\Program Files\\\\Notepad4\\\\Notepad4.exe"))	1000	0	1
+zpo	$CC1("打开Pot", proc.run("D:\\\\Program Files\\\\pot\\\\pot.exe"))	2000	0	1
+zpj	$CC1("打开Project", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINPROJ.EXE"))	1000	0	1
+zpp	$CC1("打开PowerPoint", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\POWERPNT.EXE"))	1000	0	1
+zqd	$CC1("打开Q-Dir", proc.run("D:\\\\Program Files\\\\Q-Dir.exe"))	1000	0	1
+zqq	$CC1("打开QQ", proc.run("C:\\\\Program Files\\\\Tencent\\\\QQNT\\\\QQ.exe"))	2000	0	1
+zvs	$CC1("打开Visio", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\VISIO.EXE"))	1000	0	1
+zwd	$CC1("打开Word", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE"))	2000	0	1
+zwx	$CC1("打开微信", proc.run("C:\\\\Program Files\\\\Tencent\\\\Weixin\\\\Weixin.exe"))	1500	0	1
+zwx	$CC1("打开企业微信", proc.run("C:\\\\Program Files (x86)\\\\WXWork\\\\WXWork.exe"))	1000	0	1
+
+zsc	$CC1("切到五笔98", ime.schema("wubi98"))	2000	0	1
+zsc	$CC1("切到五笔86", ime.schema("wubi86"))	1500	0	1
+zsc	$CC1("切到全拼", ime.schema("pinyin"))	1300	0	1
+zsc	$CC1("切到双拼", ime.schema("shuangpin"))	1200	0	1
+
+zms	$CC1("全半角", ime.toggle("fullshape"))	2000	0	1
+zms	$CC1("工具栏", ime.toggle("toolbar"))	2000	0	1
+zms	$CC1("横纵候选", ime.toggle("layout"))	2000	0	1
+zms	$CC1("简繁", ime.toggle("s2t"))	1900	0	1
+zms	$CC1("中英", ime.toggle("cn-en"))	1900	0	1
+zms	$CC1("微软主题", ime.theme("msime"))	1890	0	1
+zms	$CC1("循环主题", config.toggle("ui.theme.style"))	1880	0	1
+zms	$CC1("主题", ime.theme_cycle())	1870	0	1
+zms	$CC1("暗色", config.set("ui.theme.style", "dark"))	1860	0	1
+zms	$CC1("编码", ime.toggle("preedit"))	2	0	1
+zms	$CC1("候选窗显隐", ime.toggle("candwin"))	1	0	1
+
 zzbd	$AA("标点", "、。·ˉˇ¨〃々—～‖…‘’“”〔〕〈〉《》「」『』〖〗【】±×÷∶∧∨∑∏∪∩∈∷√⊥∥∠⌒⊙∫∮≡≌≈∽∝≠≮≯≤≥∞∵∴♂♀°′″℃＄¤￠￡‰§№☆★○●◎◇◆□■△▲※→←↑↓〓")	1230	0	1
 zzde	$AA("大写俄文", "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁ")	1110	0	1
 zzdl	$AA("大写罗马", "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ")	1090	0	1
