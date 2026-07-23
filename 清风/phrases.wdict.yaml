@@ -13,46 +13,6 @@ wind_dict:
                 - enabled
 
 --- !phrases
-coad	$CC("剪贴板加词:{clip()}", dict.add(clip()))	2000	0	1
-cobd	$CC("打开百度", open("https://baidu.com"))	2000	0	1
-coca	$CC("打开计算器", proc.run("calc.exe"))	2000	0	1
-cocp	$CC("复制时间", clip.copy(now()))	2000	0	1
-cocw	$CC("切候选窗", ime.toggle("candwin"))	2000	0	1
-codl	$CC("[删行]", key.seq("Home", "Shift+End", "Backspace"))	2000	0	1
-coen	$CC("切中英", ime.toggle("cn-en"))	2000	0	1
-cofs	$CC("切全半角", ime.toggle("fullshape"))	2000	0	1
-cohm	$CC("打开用户主目录", open(env("USERPROFILE")))	2000	0	1
-cojk	$CC("「」", type("「」"), key.tap("Left"))	2000	0	1
-coll	$CC(last(), type(last()))	2000	0	1
-coly	$CC("切横纵候选", ime.toggle("layout"))	2000	0	1
-cono	$CC("打开记事本", proc.run("notepad.exe"))	2000	0	1
-copa	$CC("粘贴", clip.paste())	2000	0	1
-copm	$CC("切编码模式", ime.toggle("preedit"))	2000	0	1
-coss	$CC("打开设置", setting.open(""))	2000	0	1
-coss	$CC("设置(Web)", setting.web(""))	2000	0	1
-cost	$CC("切简繁", ime.toggle("s2t"))	2000	0	1
-cotb	$CC("切工具栏", ime.toggle("toolbar"))	2000	0	1
-cots	$CC("切主题", ime.theme_cycle())	2000	0	1
-cozd	$CC("汉典:{last(1)}", open("https://www.zdic.net/hans/{url(last(1))}"))	2000	0	1
-
-date	$Y-$MM-$DD	800	0	1
-date	$Y.$MM.$DD	800	0	1
-date	$Y/$MM/$DD	800	0	1
-date	$Y年$M月$D日	1000	0	1
-date	${YC}年${MC}月${DC}日	800	0	1
-datm	$Y-$MM-$DD $HH:$mm:$ss	800	0	1
-datm	$Y年$M月$D日 $HH:$mm:$ss	1000	0	1
-datm	${YC}年${MC}月${DC}日 $HH:$mm:$ss	800	0	1
-time	$HH:$mm	800	0	1
-time	$HH:$mm:$ss	1000	0	1
-time	$HH时$mm分$ss秒	800	0	1
-tmts	$ts	800	0	1
-tmts	$tsms	800	0	1
-uuid	$uuid	1000	0	1
-week	$Y年$M月$D日 周$WC	800	0	1
-week	$Y年$M月$D日 星期$WC	800	0	1
-week	周$WC	800	0	1
-week	星期$WC	1000	0	1
 
 zca	$CC1("打开CAD", proc.run("D:\\\\Program Files\\\\Autodesk\\\\AutoCAD 2026\\\\acad.exe"))	2000	0	1
 zee	$CC1("打开EmEditor", proc.run("D:\\\\Program Files\\\\EmEditor\\\\EmEditor.exe"))	1000	0	1
@@ -88,42 +48,4 @@ zms	$CC1("中英", ime.toggle("cn-en"))	1900	0	1
 zms	$CC1("微软主题", ime.theme("msime"))	1890	0	1
 zms	$CC1("循环主题", config.toggle("ui.theme.style"))	1880	0	1
 zms	$CC1("主题", ime.theme_cycle())	1870	0	1
-zms	$CC1("暗色", config.set("ui.theme.style", "dark"))	1860	0	1
-zms	$CC1("编码", ime.toggle("preedit"))	2	0	1
-zms	$CC1("候选窗显隐", ime.toggle("candwin"))	1	0	1
 
-zzbd	$AA("标点", "、。·ˉˇ¨〃々—～‖…‘’“”〔〕〈〉《》「」『』〖〗【】±×÷∶∧∨∑∏∪∩∈∷√⊥∥∠⌒⊙∫∮≡≌≈∽∝≠≮≯≤≥∞∵∴♂♀°′″℃＄¤￠￡‰§№☆★○●◎◇◆□■△▲※→←↑↓〓")	1230	0	1
-zzde	$AA("大写俄文", "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁ")	1110	0	1
-zzdl	$AA("大写罗马", "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ")	1090	0	1
-zzds	$AA("点号数字", "⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛")	1170	0	1
-zzdw	$AA("单位", "㎎㎏㎜㎝㎞㎡㏄㏎㏑㏒㏕")	1190	0	1
-zzdx	$AA("大写希腊", "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ")	1070	0	1
-zzhb	$AA("货币符号", "＄￠￡￥¤")	1130	0	1
-zzjp	$AA("片假名", "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶーヽヾ")	1040	0	1
-zzjt	$AA("箭头符号", "→↑←↓↖↗↘↙")	1120	0	1
-zzks	$AA("括号数字", "⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇")	1160	0	1
-zzpj	$AA("平假名", "ぁあぃいぅうぇえぉおかがきぎぱくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをん゛゜ゝゞ")	1050	0	1
-zzpp	$AA("偏旁", "亻彳讠饣艹丶乛亠冖宀冫丷扌氵灬丨亅丿乚勹匚冂凵爫忄丬纟疒阝刂卩犭辶廴钅礻衤罒覀夂癶耂牜虍歺糹釒飠")	1200	0	1
-zzpy	$AA("拼音", "āáǎàōóǒòêēéěèīíǐìǖǘǚǜüūúǔù")	1180	0	1
-zzrq	$Y-$MM-$DD	800	0	1
-zzrq	$Y.$MM.$DD	800	0	1
-zzrq	$Y/$MM/$DD	800	0	1
-zzrq	$Y年$M月$D日	1000	0	1
-zzrq	${YC}年${MC}月${DC}日	800	0	1
-zzsj	$HH:$mm	800	0	1
-zzsj	$HH:$mm:$ss	1000	0	1
-zzsj	$HH时$mm分$ss秒	800	0	1
-zzsx	$AA("数学符号", "＋－＜＝＞±×÷∈∏∑∕√∝∞∟∠∣∥∧∨∩∪∫∮∴∵∶∷∽≈≌≒≠≡≤≥≦≧≮≯⊕⊙⊥⊿")	1030	0	1
-zzsz	$AA("数字", "")	1220	0	1
-zzts	$AA("特殊符号", "℃°‰♂♀§№☆★○●◎◇◆□■△▲※〓＃＆＠＼＾＿￣")	1020	0	1
-zzxe	$AA("小写俄文", "абвгдежзийклмнопрстуфхцчшщъыьэюяё")	1100	0	1
-zzxl	$AA("小写罗马", "ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹ")	1080	0	1
-zzxq	$Y年$M月$D日 周$WC	800	0	1
-zzxq	$Y年$M月$D日 星期$WC	800	0	1
-zzxq	周$WC	800	0	1
-zzxq	星期$WC	1000	0	1
-zzxx	$AA("小写希腊", "αβγδεζηθικλμνξοπρστυφχψω")	1060	0	1
-zzys	$AA("圆圈数字", "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳⓪❶❷❸❹❺❻❼❽❾❿⓫⓬⓭⓮⓯⓰⓱⓲⓳⓴⓿")	1150	0	1
-zzzm	$AA("字母", "ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ")	1210	0	1
-zzzs	$AA("中文数字", "㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩")	1140	0	1
-zzzy	$AA("注音符号", "ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ")	1010	0	1
