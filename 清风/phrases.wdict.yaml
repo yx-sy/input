@@ -28,6 +28,10 @@ zsc	$CC1("双拼", ime.schema("shuangpin"))	1600	0	1
 zsc	$CC1("五笔86拼音", ime.schema("wubi86_pinyin"))	1300	0	1
 zsc	$CC1("五笔98拼音", ime.schema("wubi98_pinyin"))	1300	0	1
 
+zst	$CC("打开设置", setting.open(""))	1000	0	1
+zst	$CC("打开词库", setting.open("dict"))	1000	0	1
+zst	$CC("打开输入", setting.open("input"))	1000	0	1
+
 zml	$CC1("打开安装目录", open("${APP_DIR}"))	1000	0	1
 zwd	$CC1("打开Word", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE"))	2000	0	1
 zex	$CC1("打开Excel", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\EXCEL.EXE"))	2000	0	1
@@ -46,7 +50,7 @@ zmo	$CC1("打开MouseInc", proc.run("D:\\Program Files\\MouseInc\\MouseInc.exe")
 zpo	$CC1("打开Pot", proc.run("D:\\Program Files\\pot\\pot.exe"))	2000	0	1
 znp	$CC1("打开Notepad4", proc.run("D:\\Program Files\\Notepad4\\Notepad4.exe"))	1000	0	1
 zsc	$CC1("打开ScreenCapture", proc.run("D:\\Program Files\\ScreenCapture.exe"))	1000	0	1
-zfd	$CC1("打开FluxDown", proc.run("D:\\Program Files\\FluxDown\\FluxDown.exe"))	1500	0	1
+zfd	$CC1("打开FluxDown", proc.run("D:\\Program Files\\FluxDown\\flux_down.exe"))	1500	0	1
 zgd	$CC1("打开GhostDownloader", proc.run("D:\\Program Files\\Ghost-Downloader-3.dist\\Ghost-Downloader-3.exe"))	1000	0	1
 zgp	$CC1("打开Gopeed", proc.run("D:\\Program Files\\Gopeed\\gopeed.exe"))	1000	0	1
 zmn	$CC1("打开MotrixNext", proc.run("D:\\Program Files\\MotrixNext\\motrix-next.exe"))	1500	0	1
