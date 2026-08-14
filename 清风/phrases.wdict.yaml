@@ -13,6 +13,8 @@ zms	$CC1("横纵候选", ime.toggle("layout"))	2000	0	1
 zms	$CC1("显隐工具栏", ime.toggle("toolbar"))	1990	0	1
 zms	$CC1("全半角", ime.toggle("fullshape"))	1980	0	1
 zms	$CC1("简繁", ime.toggle("s2t"))	1970	0	1
+zms	$CC1("亮色", config.set("ui.theme.style", "light"))	1960	0	1
+zms	$CC1("暗色", config.set("ui.theme.style", "dark"))	1950	0	1
 zms	$CC1("清风·蓝", ime.theme("default"))	1890	0	1
 zms	$CC1("清风·绿", ime.theme("jade"))	1880	0	1
 zms	$CC1("清风·橙", ime.theme("amber"))	1870	0	1
