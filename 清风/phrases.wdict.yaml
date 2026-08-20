@@ -51,7 +51,7 @@ zwx	$CC1("打开企业微信", proc.run("C:\\Program Files (x86)\\WXWork\\WXWork
 zca	$CC1("打开CAD", proc.run("D:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe"))	2000	0	1
 zme	$CC1("打开Microsoft Edge", proc.run("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"))	2000	0	1
 
-zsl	$CC1("打开SwiftList", proc.run("D:\\Program Files\\SwiftList\\SwiftList.App.exe"))	1000	0	1
+zsl	$CC1("打开Lertaro", proc.run("D:\\Program Files\\Lertaro\\Lertaro.App.exe"))	1000	0	1
 zql	$CC1("打开QuickLook", proc.run("D:\\Program Files\\QuickLook\\QuickLook.exe"))	1000	0	1
 zmo	$CC1("打开MouseInc", proc.run("D:\\Program Files\\MouseInc\\MouseInc.exe"))	1000	0	1
 zpo	$CC1("打开Pot", proc.run("D:\\Program Files\\pot\\pot.exe"))	2000	0	1
