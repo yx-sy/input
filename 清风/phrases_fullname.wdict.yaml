@@ -1,0 +1,79 @@
+# WindInput 用户数据文件
+wind_dict:
+  version: 1
+  generator: WindInput
+  exported_at: 
+  sections:
+    phrases:
+      columns: [code, text, weight, position, enabled]
+
+--- !phrases
+
+zms	$CC1("横纵候选", ime.toggle("layout"))	2000	0	1
+zms	$CC1("显隐工具栏", ime.toggle("toolbar"))	1990	0	1
+zms	$CC1("全半角", ime.toggle("fullshape"))	1980	0	1
+zms	$CC1("简繁", ime.toggle("s2t"))	1970	0	1
+zms	$CC1("亮色", config.set("ui.theme.style", "light"))	1960	0	1
+zms	$CC1("暗色", config.set("ui.theme.style", "dark"))	1950	0	1
+zms	$CC1("循环主题", ime.theme_cycle())		1890	0	1
+zms	$CC1("微软主题", ime.theme("msime"))	1880	0	1
+zms	$CC1("清风·蓝", ime.theme("default"))	1870	0	1
+zms	$CC1("清风·绿", ime.theme("jade"))	1860	0	1
+zms	$CC1("清风·橙", ime.theme("amber"))	1850	0	1
+zms	$CC1("清风·紫", ime.theme("violet"))	1840	0	1
+zms	$CC1("中英", ime.toggle("cn-en"))	1700	0	1
+
+zsc	$CC1("五笔98", ime.schema("wubi98"))	2000	0	1
+zsc	$CC1("五笔86", ime.schema("wubi86"))	1900	0	1
+zsc	$CC1("全拼", ime.schema("pinyin"))	1800	0	1
+zsc	$CC1("双拼", ime.schema("shuangpin"))	1700	0	1
+zsc	$CC1("五笔98拼音", ime.schema("wubi98_pinyin"))	1000	0	1
+zsc	$CC1("五笔86拼音", ime.schema("wubi86_pinyin"))	1000	0	1
+
+zst	$CC("设置", setting.open(""))	2000	0	1
+zst	$CC("方案", setting.open("schema"))	1900	0	1
+zst	$CC("输入", setting.open("input"))	1800	0	1
+zst	$CC("按键", setting.open("keys"))	1700	0	1
+zst	$CC("外观", setting.open("ui"))	1600	0	1
+zst	$CC("词库", setting.open("dict"))	1500	0	1
+zst	$CC("高级", setting.open("advanced"))	1400	0	1
+zst	$CC("关于", setting.open("about"))	1300	0	1
+
+zml	$CC1("打开安装目录", open("${APP_DIR}"))	1000	0	1
+zword	$CC1("打开Word", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE"))	2000	0	1
+zexcel	$CC1("打开Excel", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\EXCEL.EXE"))	2000	0	1
+zpowerpoint	$CC1("打开PowerPoint", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\POWERPNT.EXE"))	2000	0	1
+zvisio	$CC1("打开Visio", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\VISIO.EXE"))	1100	0	1
+zproject	$CC1("打开Project", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINPROJ.EXE"))	1000	0	1
+zqq	$CC1("打开QQ", proc.run("C:\\Program Files\\Tencent\\QQNT\\QQ.exe"))	2000	0	1
+zwx	$CC1("打开微信", proc.run("C:\\Program Files\\Tencent\\Weixin\\Weixin.exe"))	2000	0	1
+zwxwork	$CC1("打开企业微信", proc.run("C:\\Program Files (x86)\\WXWork\\WXWork.exe"))	1900	0	1
+zca	$CC1("打开CAD", proc.run("D:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe"))	2000	0	1
+zedge	$CC1("打开Microsoft Edge", proc.run("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"))	2000	0	1
+
+zlertaro	$CC1("打开Lertaro", proc.run("D:\\Program Files\\Lertaro\\Lertaro.App.exe"))	1000	0	1
+zquicklood	$CC1("打开QuickLook", proc.run("D:\\Program Files\\QuickLook\\QuickLook.exe"))	1000	0	1
+zmouselnc	$CC1("打开MouseInc", proc.run("D:\\Program Files\\MouseInc\\MouseInc.exe"))	1000	0	1
+zpot	$CC1("打开Pot", proc.run("D:\\Program Files\\pot\\pot.exe"))	2000	0	1
+znotepad	$CC1("打开Notepad4", proc.run("D:\\Program Files\\Notepad4\\Notepad4.exe"))	1000	0	1
+zscreencapture	$CC1("打开ScreenCapture", proc.run("D:\\Program Files\\ScreenCapture.exe"))	1000	0	1
+zfluxdown	$CC1("打开FluxDown", proc.run("D:\\Program Files\\FluxDown\\flux_down.exe"))	1000	0	1
+zghostdownloader	$CC1("打开GhostDownloader", proc.run("D:\\Program Files\\Ghost-Downloader-3.dist\\Ghost-Downloader-3.exe"))	1000	0	1
+zgopeed	$CC1("打开Gopeed", proc.run("D:\\Program Files\\Gopeed\\gopeed.exe"))	1000	0	1
+zmotrixnext	$CC1("打开MotrixNext", proc.run("D:\\Program Files\\MotrixNext\\motrix-next.exe"))	1000	0	1
+zdrawio	$CC1("打开Draw.io", proc.run("D:\\Program Files\\draw.io\\draw.io.exe"))	1000	0	1
+zlxmusic	$CC1("打开LX Music", proc.run("D:\\Program Files\\LxMusic\\lx-music-desktop.exe"))	1000	0	1
+zvscode	$CC1("打开VSCode", proc.run("D:\\Program Files\\VSCode\\Code.EXE"))	1000	0	1
+
+zqdir	$CC1("打开Q-Dir", proc.run("D:\\Program Files\\Q-Dir.exe"))	1000	0	1
+zgeek	$CC1("打开Geek Uninstaller", proc.run("D:\\Program Files\\Geek Uninstaller.exe"))	1000	0	1
+zhibit	$CC1("打开HiBit Uninstaller", proc.run("D:\\Program Files\\HiBit Uninstaller.exe"))	1000	0	1
+zemeditor	$CC1("打开EmEditor", proc.run("D:\\Program Files\\EmEditor\\EmEditor.exe"))	1000	0	1
+zfscapture	$CC1("打开FSCapture", proc.run("D:\\Program Files\\FSCapture\\FSCapture.exe"))	1000	0	1
+zeverything	$CC1("打开Everything", proc.run("D:\\Program Files\\Everything\\everything.exe"))	1000	0	1
+zpotplayer	$CC1("打开PotPlayer", proc.run("D:\\Program Files\\PotPlayer\\PotPlayerMini64.exe"))	1000	0	1
+zomap	$CC1("打开奥维地图", proc.run("D:\\Program Files\\omap\\omap.exe"))	1000	0	1
+
+zzd	$CC1("汉典 · {last()}", open("https://www.zdic.net/hans/{url(last())}"))	1000	0	1
+zbaidu	$CC1("百度搜 · {clip()}", open("https://www.baidu.com/s?wd={clip()}"))	1000	0	1
+zgithub	$CC1("打开Github", open("https://github.com/yx-sy?direction=desc&sort=updated&tab=stars"))	1000	0	1
