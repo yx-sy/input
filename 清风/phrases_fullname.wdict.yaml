@@ -48,7 +48,7 @@ zproject	$CC1("打开Project", proc.run("C:\\\\Program Files\\\\Microsoft Office
 zqq	$CC1("打开QQ", proc.run("C:\\Program Files\\Tencent\\QQNT\\QQ.exe"))	2000	0	1
 zwx	$CC1("打开微信", proc.run("C:\\Program Files\\Tencent\\Weixin\\Weixin.exe"))	2000	0	1
 zwxwork	$CC1("打开企业微信", proc.run("C:\\Program Files (x86)\\WXWork\\WXWork.exe"))	1900	0	1
-zca	$CC1("打开CAD", proc.run("D:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe"))	2000	0	1
+zcad	$CC1("打开CAD", proc.run("D:\\Program Files\\Autodesk\\AutoCAD 2026\\acad.exe"))	2000	0	1
 zedge	$CC1("打开Microsoft Edge", proc.run("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"))	2000	0	1
 
 zlertaro	$CC1("打开Lertaro", proc.run("D:\\Program Files\\Lertaro\\Lertaro.App.exe"))	1000	0	1
