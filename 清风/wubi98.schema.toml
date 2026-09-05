@@ -1,0 +1,44 @@
+[schema]
+id = "wubi98"
+name = "五笔98"
+icon_label = "五"
+version = "1.0"
+author = "内置"
+description = "五笔98版输入方案"
+
+[engine]
+type = "codetable"
+
+[engine.chaizi]
+db_path = "wubi98/@wubi98.txt"
+font_path = "wubi98/98WB-0.otf"
+font_family = "98WB-0"
+
+[engine.codetable]
+max_code_length = 4
+# base_sort = "weight"
+input_chars = "a-z@"
+
+[[dictionaries]]
+id = "wubi98_main"
+label = "五笔主词库"
+description = "五笔基础词库，含单字、高频词组、生僻字！"
+path = "wubi98/wubi98.dict.yaml"
+type = "rime_codetable"
+default = true
+base_order = 0
+
+[encoder]
+max_word_length = 10
+
+[[encoder.rules]]
+length_equal = 2
+formula = "AaAbBaBb"
+
+[[encoder.rules]]
+length_equal = 3
+formula = "AaBaCaCb"
+
+[[encoder.rules]]
+length_in_range = [4, 10]
+formula = "AaBaCaZa"

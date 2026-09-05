@@ -1,0 +1,14 @@
+[schema]
+id = "wubi98_pinyin"
+name = "五笔98拼音"
+icon_label = "混"
+version = "1.0"
+author = "内置"
+description = "五笔98+拼音混合输入方案"
+
+[engine]
+type = "mixed"
+
+[engine.mixed]
+primary_schema = "wubi98"
+secondary_schema = "pinyin"
