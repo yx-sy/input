@@ -60,7 +60,7 @@ zscreencapture	$CC1("打开ScreenCapture", proc.run("D:\\Program Files\\ScreenCa
 zfluxdown	$CC1("打开FluxDown", proc.run("D:\\Program Files\\FluxDown\\flux_down.exe"))	1000	0	1
 zghostdownloader	$CC1("打开GhostDownloader", proc.run("D:\\Program Files\\Ghost-Downloader-3.dist\\Ghost-Downloader-3.exe"))	1000	0	1
 zgopeed	$CC1("打开Gopeed", proc.run("D:\\Program Files\\Gopeed\\gopeed.exe"))	1000	0	1
-zmotrixnext	$CC1("打开MotrixNext", proc.run("D:\\Program Files\\MotrixNext\\motrix-next.exe"))	1000	0	1
+zrayburst	$CC1("打开Rayburst", proc.run("D:\\Program Files\\Rayburst\\rayburst.exe"))	1000	0	1
 zdrawio	$CC1("打开Draw.io", proc.run("D:\\Program Files\\draw.io\\draw.io.exe"))	1000	0	1
 zlxmusic	$CC1("打开LX Music", proc.run("D:\\Program Files\\LxMusic\\lx-music-desktop.exe"))	1000	0	1
 zvscode	$CC1("打开VSCode", proc.run("D:\\Program Files\\VSCode\\Code.EXE"))	1000	0	1
