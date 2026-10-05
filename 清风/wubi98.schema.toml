@@ -17,7 +17,7 @@ font_family = "98WB-0"
 [engine.codetable]
 max_code_length = 4
 # base_sort = "weight"
-input_chars = "a-z@"
+# input_chars = "a-z@"
 
 [[dictionaries]]
 id = "wubi98_main"
