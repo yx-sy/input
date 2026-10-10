@@ -57,6 +57,7 @@ zmouselnc	$CC1("打开MouseInc", proc.run("D:\\Program Files\\MouseInc\\MouseInc
 zpot	$CC1("打开Pot", proc.run("D:\\Program Files\\pot\\pot.exe"))	2000	0	1
 znotepad	$CC1("打开Notepad4", proc.run("D:\\Program Files\\Notepad4\\Notepad4.exe"))	1000	0	1
 zscreencapture	$CC1("打开ScreenCapture", proc.run("D:\\Program Files\\ScreenCapture.exe"))	1000	0	1
+zsnowshot	$CC1("打开SnowShot", proc.run("D:\Program Files\SnowShot\bin\\snow_shot.exe"))	1000	0	1
 zfluxdown	$CC1("打开FluxDown", proc.run("D:\\Program Files\\FluxDown\\flux_down.exe"))	1000	0	1
 zghostdownloader	$CC1("打开GhostDownloader", proc.run("D:\\Program Files\\Ghost-Downloader-3.dist\\Ghost-Downloader-3.exe"))	1000	0	1
 zgopeed	$CC1("打开Gopeed", proc.run("D:\\Program Files\\Gopeed\\gopeed.exe"))	1000	0	1
