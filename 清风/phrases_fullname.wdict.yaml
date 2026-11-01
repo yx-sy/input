@@ -15,29 +15,38 @@ zms	$CC1("全半角", ime.toggle("fullshape"))	1980	0	1
 zms	$CC1("简繁", ime.toggle("s2t"))	1970	0	1
 zms	$CC1("亮色", config.set("ui.theme.style", "light"))	1960	0	1
 zms	$CC1("暗色", config.set("ui.theme.style", "dark"))	1950	0	1
-zms	$CC1("循环主题", ime.theme_cycle())		1890	0	1
-zms	$CC1("微软主题", ime.theme("msime"))	1880	0	1
-zms	$CC1("清风·蓝", ime.theme("default"))	1870	0	1
-zms	$CC1("清风·绿", ime.theme("jade"))	1860	0	1
-zms	$CC1("清风·橙", ime.theme("amber"))	1850	0	1
-zms	$CC1("清风·紫", ime.theme("violet"))	1840	0	1
 zms	$CC1("中英", ime.toggle("cn-en"))	1700	0	1
 
-zsc	$CC1("五笔98", ime.schema("wubi98"))	2000	0	1
-zsc	$CC1("五笔86", ime.schema("wubi86"))	1900	0	1
-zsc	$CC1("全拼", ime.schema("pinyin"))	1800	0	1
-zsc	$CC1("双拼", ime.schema("shuangpin"))	1700	0	1
-zsc	$CC1("五笔98拼音", ime.schema("wubi98_pinyin"))	1000	0	1
-zsc	$CC1("五笔86拼音", ime.schema("wubi86_pinyin"))	1000	0	1
+zzt	$CC1("微软主题", ime.theme("msime"))	1880	0	1
+zzt	$CC1("清风·蓝", ime.theme("default"))	1870	0	1
+zzt	$CC1("清风·绿", ime.theme("jade"))	1860	0	1
+zzt	$CC1("清风·橙", ime.theme("amber"))	1850	0	1
+zzt	$CC1("清风·紫", ime.theme("violet"))	1840	0	1
 
-zst	$CC("设置", setting.open(""))	2000	0	1
-zst	$CC("方案", setting.open("schema"))	1900	0	1
-zst	$CC("输入", setting.open("input"))	1800	0	1
-zst	$CC("按键", setting.open("keys"))	1700	0	1
-zst	$CC("外观", setting.open("ui"))	1600	0	1
-zst	$CC("词库", setting.open("dict"))	1500	0	1
-zst	$CC("高级", setting.open("advanced"))	1400	0	1
-zst	$CC("关于", setting.open("about"))	1300	0	1
+zwb	$CC1("五笔98", ime.schema("wubi98"))	2000	0	1
+zwb	$CC1("五笔86", ime.schema("wubi86"))	1900	0	1
+zwb	$CC1("五笔98拼音", ime.schema("wubi98_pinyin"))	1000	0	1
+zwb	$CC1("五笔86拼音", ime.schema("wubi86_pinyin"))	1000	0	1
+zpy	$CC1("全拼", ime.schema("pinyin"))	1800	0	1
+zpy	$CC1("双拼", ime.schema("shuangpin"))	1700	0	1
+zsp	$CC1("双拼", ime.schema("shuangpin"))	1700	0	1
+
+zfa	$CC1("五笔98", ime.schema("wubi98"))	2000	0	1
+zfa	$CC1("五笔86", ime.schema("wubi86"))	1900	0	1
+zfa	$CC1("五笔98拼音", ime.schema("wubi98_pinyin"))	1000	0	1
+zfa	$CC1("五笔86拼音", ime.schema("wubi86_pinyin"))	1000	0	1
+zfa	$CC1("全拼", ime.schema("pinyin"))	1800	0	1
+zfa	$CC1("双拼", ime.schema("shuangpin"))	1700	0	1
+zfa	$CC1("双拼", ime.schema("shuangpin"))	1700	0	1
+
+zsz	$CC("设置", setting.open(""))	2000	0	1
+zsz	$CC("方案", setting.open("schema"))	1900	0	1
+zsz	$CC("输入", setting.open("input"))	1800	0	1
+zsz	$CC("按键", setting.open("keys"))	1700	0	1
+zsz	$CC("外观", setting.open("ui"))	1600	0	1
+zsz	$CC("词库", setting.open("dict"))	1500	0	1
+zsz	$CC("高级", setting.open("advanced"))	1400	0	1
+zsz	$CC("关于", setting.open("about"))	1300	0	1
 
 zml	$CC1("打开安装目录", open("${APP_DIR}"))	1000	0	1
 zword	$CC1("打开Word", proc.run("C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\WINWORD.EXE"))	2000	0	1
