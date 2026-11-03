@@ -61,7 +61,7 @@ zcad	$CC1("打开CAD", proc.run("D:\\Program Files\\Autodesk\\AutoCAD 2026\\acad
 zedge	$CC1("打开Microsoft Edge", proc.run("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"))	2000	0	1
 
 zlertaro	$CC1("打开Lertaro", proc.run("D:\\Program Files\\Lertaro\\Lertaro.App.exe"))	1000	0	1
-zquicklood	$CC1("打开QuickLook", proc.run("D:\\Program Files\\QuickLook\\QuickLook.exe"))	1000	0	1
+zquicklook	$CC1("打开QuickLook", proc.run("D:\\Program Files\\QuickLook\\QuickLook.exe"))	1000	0	1
 zmouselnc	$CC1("打开MouseInc", proc.run("D:\\Program Files\\MouseInc\\MouseInc.exe"))	1000	0	1
 zpot	$CC1("打开Pot", proc.run("D:\\Program Files\\pot\\pot.exe"))	2000	0	1
 znotepad	$CC1("打开Notepad4", proc.run("D:\\Program Files\\Notepad4\\Notepad4.exe"))	1000	0	1
